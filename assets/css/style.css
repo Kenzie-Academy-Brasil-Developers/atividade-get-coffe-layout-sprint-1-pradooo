@@ -117,22 +117,20 @@ header{
     
 }
 .copo{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column: auto;
-    justify-content: right;
+    display: flex;
+    align-self: right;
     margin-left: 100px;
     margin-top: 20px;
+    margin-bottom: 20px;
     max-width: 30%;
     
 }
-h2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column: auto;
+.texto h2{
+    display: flex;
     justify-content: left;
     margin-left:100px;
     margin-bottom: 20px;
+    margin-top: 100px;
     
 }
 button{
