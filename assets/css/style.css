@@ -33,26 +33,133 @@ font-family: 'Nunito', sans-serif;
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, a{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     list-style: none;
     text-decoration: none;
+    
 }
 /* GERAL */
   
 /* HTML */
-html{}
+html{
+    background-color: rgb(216, 212, 212);
+}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    background-color: white;
+    width: 95%;
+    height: 910px;
+    border-radius: 8px;
+    margin:auto;
+    justify-content: space-around;
+}
 /* BODY */
   
 
 /* HEADER */
-header{}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(216, 212, 212);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+}
+.img{
+    justify-content: left;
+}
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figcaption{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    align-items: center;
+}
+.lista{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    align-items: center;
+    margin: auto;
+    justify-content: right;
+    
+}
+.lista li a{
+    padding: 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+}
+.copo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    justify-content: right;
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 30%;
+    
+}
+h2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: auto;
+    justify-content: left;
+    margin-left:100px;
+    margin-bottom: 20px;
+    
+}
+button{
+    display: flex;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    border-radius: 6px;
+    background-color: #FCA60F;
+    color:white;
+    border:none;
+}
+.page_home_list_social{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 100%;
+    display:flex;
+}
+.page_home_list_social li a{
+    margin-left: 10px;
+}
+.scrollDown{
+    width: 100%;
+    margin-top: 100px;
+}
+
 /* HEADER */
   
 
@@ -103,7 +210,8 @@ main>a{
     }
 
 /* INICIAL */
-  
+
+
 
 /* EXTRAS */
 
