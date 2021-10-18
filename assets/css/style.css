@@ -80,11 +80,12 @@ header{
 .menu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    
     
 }
 .img{
-    justify-content: left;
+    
+    flex-wrap: wrap;
 }
 .figure{
     display: flex;
@@ -105,7 +106,7 @@ header{
     float:right;
     align-items: center;
     margin: auto;
-    justify-content: right;
+    
     
 }
 .lista li a{
@@ -120,9 +121,10 @@ header{
 .copo{
     float:right;
     display: flex;
+    flex-wrap: wrap;
     align-self: right;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     max-width: 30%;
     
@@ -131,6 +133,7 @@ header{
     
     max-width: 28%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     margin-left:100px;
     margin-bottom: 20px;
@@ -140,6 +143,7 @@ header{
 button{
     max-width: 30%;
     display: flex;
+    flex-wrap: wrap;
     padding: 15px;
     font-size: 16px;
     text-transform: uppercase;
@@ -154,6 +158,7 @@ button{
     margin-left: 90px;
     max-width: 50%;
     display:flex;
+    flex-wrap: wrap;
 }
 .page_home_list_social li a{
     margin-left: 10px;
