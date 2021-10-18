@@ -100,18 +100,18 @@ header{
 .lista{
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     float:right;
     align-items: center;
     margin: auto;
-    padding-left: 850px;
+    padding-left: 750px;
     
     
 }
 .lista li a{
     padding: 20px;
     display: block;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-decoration: none;
     list-style: none;
     color: black;
